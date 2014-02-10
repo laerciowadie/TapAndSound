@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AudioToolbox/AudioToolbox.h>
+#import "soundQueue.h"
 
 @interface TASFirstViewController : UIViewController
+
+@property soundQueue *queue;
+
+@property NSMutableArray *originalQueue;
+
+-(IBAction)playSound:(id)sender;
 
 @end

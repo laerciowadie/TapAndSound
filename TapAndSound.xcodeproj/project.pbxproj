@@ -23,6 +23,21 @@
 		D20602EE18A0873800E0C0EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D20602CA18A0873700E0C0EB /* UIKit.framework */; };
 		D20602F618A0873800E0C0EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D20602F418A0873800E0C0EB /* InfoPlist.strings */; };
 		D20602F818A0873800E0C0EB /* TapAndSoundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D20602F718A0873800E0C0EB /* TapAndSoundTests.m */; };
+		D206030218A0896300E0C0EB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D206030118A0896300E0C0EB /* AudioToolbox.framework */; };
+		D206030418A0962300E0C0EB /* grade.png in Resources */ = {isa = PBXBuildFile; fileRef = D206030318A0962300E0C0EB /* grade.png */; };
+		D206030618A0964300E0C0EB /* nota.png in Resources */ = {isa = PBXBuildFile; fileRef = D206030518A0964300E0C0EB /* nota.png */; };
+		D206030A18A097FC00E0C0EB /* euquero.png in Resources */ = {isa = PBXBuildFile; fileRef = D206030918A097FC00E0C0EB /* euquero.png */; };
+		D23E418A18A099E300792203 /* euestou.png in Resources */ = {isa = PBXBuildFile; fileRef = D23E418918A099E300792203 /* euestou.png */; };
+		D23E418F18A0A58800792203 /* euestou.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D23E418D18A0A58800792203 /* euestou.mp3 */; };
+		D23E419018A0A58800792203 /* euquero.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D23E418E18A0A58800792203 /* euquero.mp3 */; };
+		D25DCC8318A1C19600008B7D /* brincar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D25DCC7C18A1C19600008B7D /* brincar.mp3 */; };
+		D25DCC8418A1C19600008B7D /* comer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D25DCC7D18A1C19600008B7D /* comer.mp3 */; };
+		D25DCC8518A1C19600008B7D /* escola.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D25DCC7E18A1C19600008B7D /* escola.mp3 */; };
+		D25DCC8618A1C19600008B7D /* ir.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D25DCC7F18A1C19600008B7D /* ir.mp3 */; };
+		D25DCC8718A1C19600008B7D /* pao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D25DCC8018A1C19600008B7D /* pao.mp3 */; };
+		D25DCC8818A1C19600008B7D /* pizza.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D25DCC8118A1C19600008B7D /* pizza.mp3 */; };
+		D25DCC8918A1C19600008B7D /* praia.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D25DCC8218A1C19600008B7D /* praia.mp3 */; };
+		D2AA776B18A1D0CC008CEC42 /* soundQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AA776A18A1D0CC008CEC42 /* soundQueue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +73,22 @@
 		D20602F318A0873800E0C0EB /* TapAndSoundTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapAndSoundTests-Info.plist"; sourceTree = "<group>"; };
 		D20602F518A0873800E0C0EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D20602F718A0873800E0C0EB /* TapAndSoundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapAndSoundTests.m; sourceTree = "<group>"; };
+		D206030118A0896300E0C0EB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D206030318A0962300E0C0EB /* grade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grade.png; path = Images.xcassets/grade.png; sourceTree = "<group>"; };
+		D206030518A0964300E0C0EB /* nota.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nota.png; path = Images.xcassets/nota.png; sourceTree = "<group>"; };
+		D206030918A097FC00E0C0EB /* euquero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = euquero.png; sourceTree = "<group>"; };
+		D23E418918A099E300792203 /* euestou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = euestou.png; sourceTree = "<group>"; };
+		D23E418D18A0A58800792203 /* euestou.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = euestou.mp3; sourceTree = "<group>"; };
+		D23E418E18A0A58800792203 /* euquero.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = euquero.mp3; sourceTree = "<group>"; };
+		D25DCC7C18A1C19600008B7D /* brincar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = brincar.mp3; sourceTree = "<group>"; };
+		D25DCC7D18A1C19600008B7D /* comer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = comer.mp3; sourceTree = "<group>"; };
+		D25DCC7E18A1C19600008B7D /* escola.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = escola.mp3; sourceTree = "<group>"; };
+		D25DCC7F18A1C19600008B7D /* ir.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ir.mp3; sourceTree = "<group>"; };
+		D25DCC8018A1C19600008B7D /* pao.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pao.mp3; sourceTree = "<group>"; };
+		D25DCC8118A1C19600008B7D /* pizza.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pizza.mp3; sourceTree = "<group>"; };
+		D25DCC8218A1C19600008B7D /* praia.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = praia.mp3; sourceTree = "<group>"; };
+		D2AA776918A1D0CC008CEC42 /* soundQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = soundQueue.h; sourceTree = "<group>"; };
+		D2AA776A18A1D0CC008CEC42 /* soundQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = soundQueue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D206030218A0896300E0C0EB /* AudioToolbox.framework in Frameworks */,
 				D20602C918A0873700E0C0EB /* CoreGraphics.framework in Frameworks */,
 				D20602CB18A0873700E0C0EB /* UIKit.framework in Frameworks */,
 				D20602C718A0873700E0C0EB /* Foundation.framework in Frameworks */,
@@ -106,6 +138,7 @@
 		D20602C518A0873700E0C0EB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D206030118A0896300E0C0EB /* AudioToolbox.framework */,
 				D20602C618A0873700E0C0EB /* Foundation.framework */,
 				D20602C818A0873700E0C0EB /* CoreGraphics.framework */,
 				D20602CA18A0873700E0C0EB /* UIKit.framework */,
@@ -122,10 +155,25 @@
 				D20602D818A0873800E0C0EB /* Main_iPhone.storyboard */,
 				D20602DB18A0873800E0C0EB /* Main_iPad.storyboard */,
 				D20602DE18A0873800E0C0EB /* TASFirstViewController.h */,
+				D2AA776918A1D0CC008CEC42 /* soundQueue.h */,
+				D2AA776A18A1D0CC008CEC42 /* soundQueue.m */,
 				D20602DF18A0873800E0C0EB /* TASFirstViewController.m */,
 				D20602E118A0873800E0C0EB /* TASSecondViewController.h */,
 				D20602E218A0873800E0C0EB /* TASSecondViewController.m */,
 				D20602E418A0873800E0C0EB /* Images.xcassets */,
+				D25DCC7C18A1C19600008B7D /* brincar.mp3 */,
+				D25DCC7D18A1C19600008B7D /* comer.mp3 */,
+				D25DCC7E18A1C19600008B7D /* escola.mp3 */,
+				D25DCC7F18A1C19600008B7D /* ir.mp3 */,
+				D25DCC8018A1C19600008B7D /* pao.mp3 */,
+				D25DCC8118A1C19600008B7D /* pizza.mp3 */,
+				D25DCC8218A1C19600008B7D /* praia.mp3 */,
+				D23E418D18A0A58800792203 /* euestou.mp3 */,
+				D23E418E18A0A58800792203 /* euquero.mp3 */,
+				D23E418918A099E300792203 /* euestou.png */,
+				D206030918A097FC00E0C0EB /* euquero.png */,
+				D206030518A0964300E0C0EB /* nota.png */,
+				D206030318A0962300E0C0EB /* grade.png */,
 				D20602CD18A0873700E0C0EB /* Supporting Files */,
 			);
 			path = TapAndSound;
@@ -237,10 +285,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D23E418A18A099E300792203 /* euestou.png in Resources */,
+				D206030418A0962300E0C0EB /* grade.png in Resources */,
+				D23E418F18A0A58800792203 /* euestou.mp3 in Resources */,
+				D25DCC8718A1C19600008B7D /* pao.mp3 in Resources */,
+				D25DCC8918A1C19600008B7D /* praia.mp3 in Resources */,
+				D25DCC8618A1C19600008B7D /* ir.mp3 in Resources */,
+				D25DCC8818A1C19600008B7D /* pizza.mp3 in Resources */,
+				D23E419018A0A58800792203 /* euquero.mp3 in Resources */,
 				D20602DD18A0873800E0C0EB /* Main_iPad.storyboard in Resources */,
+				D25DCC8318A1C19600008B7D /* brincar.mp3 in Resources */,
 				D20602E518A0873800E0C0EB /* Images.xcassets in Resources */,
 				D20602DA18A0873800E0C0EB /* Main_iPhone.storyboard in Resources */,
+				D206030A18A097FC00E0C0EB /* euquero.png in Resources */,
+				D25DCC8418A1C19600008B7D /* comer.mp3 in Resources */,
 				D20602D118A0873700E0C0EB /* InfoPlist.strings in Resources */,
+				D206030618A0964300E0C0EB /* nota.png in Resources */,
+				D25DCC8518A1C19600008B7D /* escola.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D20602E018A0873800E0C0EB /* TASFirstViewController.m in Sources */,
+				D2AA776B18A1D0CC008CEC42 /* soundQueue.m in Sources */,
 				D20602D318A0873700E0C0EB /* main.m in Sources */,
 				D20602D718A0873800E0C0EB /* TASAppDelegate.m in Sources */,
 				D20602E318A0873800E0C0EB /* TASSecondViewController.m in Sources */,
@@ -481,6 +543,7 @@
 				D20602FD18A0873800E0C0EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D20602FE18A0873800E0C0EB /* Build configuration list for PBXNativeTarget "TapAndSoundTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +552,7 @@
 				D206030018A0873800E0C0EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
